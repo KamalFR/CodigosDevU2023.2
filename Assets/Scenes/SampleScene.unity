@@ -333,9 +333,7 @@ GameObject:
   - component: {fileID: 1261186932}
   - component: {fileID: 1261186931}
   - component: {fileID: 1261186930}
-  - component: {fileID: 1261186935}
-  - component: {fileID: 1261186936}
-  - component: {fileID: 1261186937}
+  - component: {fileID: 1261186938}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -456,7 +454,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1261186935
+--- !u!114 &1261186938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -465,33 +463,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1261186929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcd93d32b05d2c74d8b0866c1024ede0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
---- !u!114 &1261186936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261186929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 585a41c9ccea9bb4b8f4fbd407e31f6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 5
---- !u!114 &1261186937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261186929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408cd5381ea840c4bbdc063fc9a5aed0, type: 3}
+  m_Script: {fileID: 11500000, guid: a66f101b30883784d839833d28b19acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShieldPrefab: {fileID: 5739880441989820006, guid: 7b854d79aabb3e44c9f9f354c0694aec, type: 3}
